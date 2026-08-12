@@ -1,0 +1,1084 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-06-25 20:26+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#. js-lingui-explicit-id
+#: src/components/layout/Navbar.tsx:15
+#~ msgid "Workspace"
+#~ msgstr "Workspace"
+
+#. js-lingui-explicit-id
+#: src/components/layout/Navbar.tsx:21
+#~ msgid "Portal"
+#~ msgstr "Portal"
+
+#. js-lingui-explicit-id
+#~ msgid "Agents"
+#~ msgstr "Agents"
+
+#. js-lingui-explicit-id
+#~ msgid "Conversational Analytics"
+#~ msgstr "Conversational Analytics"
+
+#. js-lingui-explicit-id
+#~ msgid "Dashboard"
+#~ msgstr "Dashboard"
+
+#. js-lingui-explicit-id
+#~ msgid "Home"
+#~ msgstr "Home"
+
+#. js-lingui-explicit-id
+#~ msgid "Query Explorer"
+#~ msgstr "Query Explorer"
+
+#. js-lingui-explicit-id
+#~ msgid "Report Builder"
+#~ msgstr "Report Builder"
+
+#. js-lingui-explicit-id
+#~ msgid "Report Viewer"
+#~ msgstr "Report Viewer"
+
+#: src/config/Sidebar.ts:7
+msgid " (Locked)"
+msgstr " (Locked)"
+
+#: src/config/AccessDenied.ts:8
+msgid " access level. Your current profile configuration does not have permission to view or interact with this feature."
+msgstr " access level. Your current profile configuration does not have permission to view or interact with this feature."
+
+#: src/config/AccessDenied.ts:6
+msgid " workspace requires an "
+msgstr " workspace requires an "
+
+#: src/config/InsightsPanel.ts:10
+msgid " yet."
+msgstr " yet."
+
+#: src/config/InsightsPanel.ts:16
+msgid ". Synchronizing with Looker database..."
+msgstr ". Synchronizing with Looker database..."
+
+#: src/config/Home.ts:20
+msgid "+14.2% vs last month"
+msgstr "+14.2% vs last month"
+
+#: src/config/Home.ts:16
+msgid "+14.8% vs target"
+msgstr "+14.8% vs target"
+
+#: src/config/Home.ts:24
+msgid "+5.1% target yield"
+msgstr "+5.1% target yield"
+
+#: src/config/Home.ts:22
+msgid "+8.4% vs last month"
+msgstr "+8.4% vs last month"
+
+#: src/config/LoginPage.ts:8
+msgid "$1.24B"
+msgstr "$1.24B"
+
+#: src/config/SalesActivityFeed.ts:28
+msgid "142 Units Dispatched"
+msgstr "142 Units Dispatched"
+
+#: src/config/SalesActivityFeed.ts:15
+msgid "18m ago"
+msgstr "18m ago"
+
+#: src/config/SalesActivityFeed.ts:18
+msgid "1h ago"
+msgstr "1h ago"
+
+#: src/config/SalesActivityFeed.ts:21
+msgid "2h ago"
+msgstr "2h ago"
+
+#: src/config/SalesActivityFeed.ts:12
+msgid "4m ago"
+msgstr "4m ago"
+
+#: src/config/LoginPage.ts:10
+msgid "99.9% Yield"
+msgstr "99.9% Yield"
+
+#: src/config/LoginPage.ts:7
+msgid "Access enterprise real-time gross merchandise performance, multi-channel attribution analytics, and predictive ML fulfillment streams in a unified portal."
+msgstr "Access enterprise real-time gross merchandise performance, multi-channel attribution analytics, and predictive ML fulfillment streams in a unified portal."
+
+#: src/config/AccessDenied.ts:4
+msgid "Access Restricted"
+msgstr "Access Restricted"
+
+#: src/config/LoginPage.ts:25
+msgid "Access Workspace"
+msgstr "Access Workspace"
+
+#: src/config/UpgradeModal.ts:42
+msgid "Active Plan"
+msgstr "Active Plan"
+
+#: src/config/ReportBuilder.ts:7
+msgid "Add field..."
+msgstr "Add field..."
+
+#: src/config/SettingsDialog.ts:17
+#: src/config/UpgradeModal.ts:21
+msgid "Advanced Embed User"
+msgstr "Advanced Embed User"
+
+#: src/config/AccessDenied.ts:7
+#: src/config/constants.ts:167
+msgid "Advanced User"
+msgstr "Advanced User"
+
+#: src/config/IntermediaryTimeline.ts:4
+msgid "Agent Progress"
+msgstr "Agent Progress"
+
+#: src/config/Agents.ts:4
+#: src/config/constants.ts:231
+#: src/config/constants.ts:246
+#: src/config/Home.ts:32
+msgid "Agents"
+msgstr "Agents"
+
+#: src/config/Home.ts:13
+msgid "AI Recommendations"
+msgstr "AI Recommendations"
+
+#: src/config/Home.ts:26
+#: src/config/InsightsPanel.ts:4
+msgid "AI Strategic Executive Briefing"
+msgstr "AI Strategic Executive Briefing"
+
+#: src/config/UpgradeModal.ts:33
+msgid "AI-powered executive data summaries"
+msgstr "AI-powered executive data summaries"
+
+#: src/config/SalesActivityFeed.ts:25
+msgid "Alerts"
+msgstr "Alerts"
+
+#: src/config/SalesActivityFeed.ts:22
+msgid "All Stream"
+msgstr "All Stream"
+
+#: src/config/DateRangePicker.ts:4
+#~ msgid "All Time"
+#~ msgstr "All Time"
+
+#: src/config/ErrorBoundary.ts:5
+msgid "An unexpected error occurred while rendering this component."
+msgstr "An unexpected error occurred while rendering this component."
+
+#: src/config/Home.ts:27
+msgid "Analytical Portals"
+msgstr "Analytical Portals"
+
+#: src/config/Home.ts:7
+msgid "Analytics Platform"
+msgstr "Analytics Platform"
+
+#: src/config/MessageBubble.ts:4
+msgid "Analyzing data and generating query..."
+msgstr "Analyzing data and generating query..."
+
+#: src/config/Home.ts:17
+msgid "AOV Yield"
+msgstr "AOV Yield"
+
+#: src/config/InsightsPanel.ts:15
+msgid "Applied optimal dynamic pricing and ad rules for "
+msgstr "Applied optimal dynamic pricing and ad rules for "
+
+#: src/config/DateRangePicker.ts:21
+msgid "Apply"
+msgstr "Apply"
+
+#: src/config/InsightsPanel.ts:12
+msgid "Apply All Strategic Rules"
+msgstr "Apply All Strategic Rules"
+
+#: src/config/ReportViewer.ts:5
+msgid "as of"
+msgstr "as of"
+
+#: src/config/AgentsChatArea.ts:7
+msgid "Ask a question about your data..."
+msgstr "Ask a question about your data..."
+
+#: src/config/AgentsChatArea.ts:6
+msgid "Ask away!"
+msgstr "Ask away!"
+
+#: src/config/LoginPage.ts:24
+msgid "Authenticating Session..."
+msgstr "Authenticating Session..."
+
+#: src/config/SalesActivityFeed.ts:16
+msgid "Automated Return Processed"
+msgstr "Automated Return Processed"
+
+#: src/config/UpgradeModal.ts:32
+msgid "Autonomous AI Data Agents & assistants"
+msgstr "Autonomous AI Data Agents & assistants"
+
+#: src/config/Home.ts:23
+msgid "Average Order Value"
+msgstr "Average Order Value"
+
+#: src/config/SettingsDialog.ts:7
+#: src/config/SettingsDialog.ts:10
+msgid "Brand"
+msgstr "Brand"
+
+#: src/config/InsightsPanel.ts:7
+msgid "Brand Focus: "
+msgstr "Brand Focus: "
+
+#: src/config/SalesActivityFeed.ts:11
+msgid "Brand Loyal customer (Tier 1) completed repeat purchase."
+msgstr "Brand Loyal customer (Tier 1) completed repeat purchase."
+
+#: src/config/Home.ts:35
+msgid "Build and inspect visual queries, charts, and custom data filters on demand."
+msgstr "Build and inspect visual queries, charts, and custom data filters on demand."
+
+#: src/config/ReportBuilder.ts:5
+msgid "Build custom integrated reports by searching and combining fields across multiple explores."
+msgstr "Build custom integrated reports by searching and combining fields across multiple explores."
+
+#: src/config/Explore.ts:5
+msgid "Build visual queries on demand."
+msgstr "Build visual queries on demand."
+
+#: src/config/Home.ts:8
+msgid "Checkout Stream"
+msgstr "Checkout Stream"
+
+#: src/config/DateRangePicker.ts:20
+msgid "Clear"
+msgstr "Clear"
+
+#: src/config/AgentsChatArea.ts:5
+msgid "Clear chat"
+msgstr "Clear chat"
+
+#: src/config/ReportBuilder.ts:8
+msgid "Clear search text"
+msgstr "Clear search text"
+
+#: src/config/AgentsSidebar.ts:8
+msgid "Collapse menu"
+msgstr "Collapse menu"
+
+#: src/config/Sidebar.ts:5
+msgid "Collapse sidebar"
+msgstr "Collapse sidebar"
+
+#: src/config/UpgradeModal.ts:22
+msgid "Complete developer and analyst freedom with custom LookML exploration and reporting."
+msgstr "Complete developer and analyst freedom with custom LookML exploration and reporting."
+
+#: src/config/IntermediaryTimeline.ts:9
+msgid "Consulted metadata for Model"
+msgstr "Consulted metadata for Model"
+
+#: src/config/UpgradeModal.ts:18
+msgid "Conversational AI"
+msgstr "Conversational AI"
+
+#: src/config/constants.ts:230
+#: src/config/constants.ts:242
+#: src/config/ConversationalAnalytics.ts:4
+#: src/config/Home.ts:30
+msgid "Conversational Analytics"
+msgstr "Conversational Analytics"
+
+#: src/config/AgentsSidebar.ts:7
+msgid "Conversations"
+msgstr "Conversations"
+
+#: src/config/UserDetailsDialog.ts:7
+msgid "Copy JSON to clipboard"
+msgstr "Copy JSON to clipboard"
+
+#: src/config/ReportViewer.ts:9
+msgid "Create new report"
+msgstr "Create new report"
+
+#: src/config/SettingsDialog.ts:18
+msgid "Create, customize layouts, perform drill downs and save agent templates."
+msgstr "Create, customize layouts, perform drill downs and save agent templates."
+
+#: src/config/SalesActivityFeed.ts:30
+msgid "CRITICAL: <15 Restock"
+msgstr "CRITICAL: <15 Restock"
+
+#: src/config/UpgradeModal.ts:8
+msgid "Current Plan"
+msgstr "Current Plan"
+
+#: src/config/UpgradeModal.ts:38
+msgid "Custom calculated dimensions & drill-downs"
+msgstr "Custom calculated dimensions & drill-downs"
+
+#: src/config/DateRangePicker.ts:11
+msgid "Custom Filter"
+msgstr "Custom Filter"
+
+#: src/config/SalesActivityFeed.ts:8
+msgid "Customer ordered 3 items including Premium Thermal Outerwear."
+msgstr "Customer ordered 3 items including Premium Thermal Outerwear."
+
+#: src/config/Sidebar.ts:8
+msgid "Dark theme"
+msgstr "Dark theme"
+
+#: src/config/constants.ts:229
+#: src/config/constants.ts:239
+#: src/config/Dashboard.ts:4
+#: src/config/Home.ts:28
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: src/config/ReportViewer.ts:6
+msgid "Dashboards"
+msgstr "Dashboards"
+
+#: src/config/Home.ts:11
+msgid "Data Fabric"
+msgstr "Data Fabric"
+
+#: src/config/IntermediaryTimeline.ts:13
+msgid "Data Result Preview"
+msgstr "Data Result Preview"
+
+#: src/config/KpiCard.ts:4
+msgid "Data unavailable"
+msgstr "Data unavailable"
+
+#: src/config/ReportBuilder.ts:11
+msgid "Dates & Timeframes"
+msgstr "Dates & Timeframes"
+
+#: src/config/AgentsSidebar.ts:12
+msgid "Delete chat"
+msgstr "Delete chat"
+
+#: src/config/Home.ts:37
+msgid "Design personalized dashboard layouts, drag-and-drop elements, and templates."
+msgstr "Design personalized dashboard layouts, drag-and-drop elements, and templates."
+
+#: src/config/Home.ts:38
+msgid "Developer documentation"
+msgstr "Developer documentation"
+
+#: src/config/ReportBuilder.ts:12
+msgid "Dimensions"
+msgstr "Dimensions"
+
+#: src/config/UserDetailsDialog.ts:6
+msgid "Disabled"
+msgstr "Disabled"
+
+#: src/config/GlobalLookerContainer.ts:6
+msgid "Embed Error:"
+msgstr "Embed Error:"
+
+#: src/config/SettingsDialog.ts:12
+msgid "Enable development source data"
+msgstr "Enable development source data"
+
+#: src/config/UserDetailsDialog.ts:5
+msgid "Enabled"
+msgstr "Enabled"
+
+#: src/config/UpgradeModal.ts:15
+msgid "Essential analytics access with standard dashboard exploration and metric viewing."
+msgstr "Essential analytics access with standard dashboard exploration and metric viewing."
+
+#: src/config/UpgradeModal.ts:35
+msgid "Everything in Gemini Embed User"
+msgstr "Everything in Gemini Embed User"
+
+#: src/config/UpgradeModal.ts:30
+msgid "Everything in Simple Embed User"
+msgstr "Everything in Simple Embed User"
+
+#: src/config/SalesActivityFeed.ts:29
+msgid "Exchange #8921"
+msgstr "Exchange #8921"
+
+#: src/config/SalesActivityFeed.ts:17
+msgid "Exchange initiated for SKU #8921 (Size mismatch)."
+msgstr "Exchange initiated for SKU #8921 (Size mismatch)."
+
+#: src/config/Home.ts:4
+msgid "Executive eCommerce Hub"
+msgstr "Executive eCommerce Hub"
+
+#: src/config/LoginPage.ts:6
+msgid "Executive Intelligence Suite"
+msgstr "Executive Intelligence Suite"
+
+#: src/config/LoginPage.ts:23
+msgid "executive@company.com"
+msgstr "executive@company.com"
+
+#: src/config/AgentsSidebar.ts:5
+msgid "Expand menu"
+msgstr "Expand menu"
+
+#: src/config/Sidebar.ts:4
+msgid "Expand sidebar"
+msgstr "Expand sidebar"
+
+#: src/config/Explore.ts:4
+#: src/config/Home.ts:34
+#: src/config/IntermediaryTimeline.ts:10
+msgid "Explore"
+msgstr "Explore"
+
+#: src/config/UpgradeModal.ts:23
+msgid "Explorer & Builder"
+msgstr "Explorer & Builder"
+
+#: src/config/UpgradeModal.ts:28
+msgid "Export and view generated reports"
+msgstr "Export and view generated reports"
+
+#: src/config/InsightsPanel.ts:8
+msgid "Failed to load dynamic AI Executive Briefings from BigQuery."
+msgstr "Failed to load dynamic AI Executive Briefings from BigQuery."
+
+#: src/config/InsightsPanel.ts:6
+msgid "Fetching Briefing..."
+msgstr "Fetching Briefing..."
+
+#: src/config/KpiCard.ts:6
+msgid "Fetching..."
+msgstr "Fetching..."
+
+#: src/config/Dashboard.ts:6
+msgid "Filters"
+msgstr "Filters"
+
+#: src/config/SalesActivityFeed.ts:20
+msgid "Fleece Hoodies (L) stock below 15 units in fulfillment center."
+msgstr "Fleece Hoodies (L) stock below 15 units in fulfillment center."
+
+#: src/config/DateRangePicker.ts:18
+msgid "Fr"
+msgstr "Fr"
+
+#: src/config/SalesActivityFeed.ts:13
+msgid "Fulfillment Batch Dispatched"
+msgstr "Fulfillment Batch Dispatched"
+
+#: src/config/LoginPage.ts:11
+msgid "Fulfillment uptime"
+msgstr "Fulfillment uptime"
+
+#: src/config/UpgradeModal.ts:36
+msgid "Full drag-and-drop Report Builder"
+msgstr "Full drag-and-drop Report Builder"
+
+#: src/config/UpgradeModal.ts:10
+msgid "Full Enterprise Access"
+msgstr "Full Enterprise Access"
+
+#: src/config/SettingsDialog.ts:15
+#: src/config/UpgradeModal.ts:17
+msgid "Gemini Embed User"
+msgstr "Gemini Embed User"
+
+#: src/config/constants.ts:166
+msgid "Gemini User"
+msgstr "Gemini User"
+
+#: src/config/IntermediaryTimeline.ts:12
+msgid "Generated Looker Query"
+msgstr "Generated Looker Query"
+
+#: src/config/AccessDenied.ts:9
+msgid "Go Home"
+msgstr "Go Home"
+
+#: src/config/constants.ts:228
+#: src/config/constants.ts:238
+msgid "Home"
+msgstr "Home"
+
+#: src/config/ConversationalAnalytics.ts:5
+#: src/config/Home.ts:31
+msgid "Interact with a conversational AI analytics assistant to query metrics."
+msgstr "Interact with a conversational AI analytics assistant to query metrics."
+
+#: src/config/SettingsDialog.ts:16
+msgid "Interact with AI analytics agents and query metrics via natural language assistants."
+msgstr "Interact with AI analytics agents and query metrics via natural language assistants."
+
+#: src/config/UpgradeModal.ts:26
+msgid "Interactive Looker dashboards"
+msgstr "Interactive Looker dashboards"
+
+#: src/config/Home.ts:9
+msgid "Inventory Events"
+msgstr "Inventory Events"
+
+#: src/config/SalesActivityFeed.ts:19
+msgid "Inventory Velocity Alert"
+msgstr "Inventory Velocity Alert"
+
+#: src/config/SourceHighlighter.ts:6
+msgid "JS Embed Events"
+msgstr "JS Embed Events"
+
+#: src/config/SalesActivityFeed.ts:9
+msgid "Just now"
+msgstr "Just now"
+
+#: src/config/SettingsDialog.ts:6
+#: src/config/SettingsDialog.ts:9
+msgid "Language"
+msgstr "Language"
+
+#: src/config/DateRangePicker.ts:4
+msgid "Last 180 Days"
+msgstr "Last 180 Days"
+
+#: src/config/DateRangePicker.ts:8
+msgid "Last 30 Days"
+msgstr "Last 30 Days"
+
+#: src/config/DateRangePicker.ts:7
+msgid "Last 7 Days"
+msgstr "Last 7 Days"
+
+#: src/config/DateRangePicker.ts:10
+msgid "Last Month"
+msgstr "Last Month"
+
+#: src/config/Home.ts:39
+msgid "Learn how to embed dashboards, build custom visualization extensions, and manage user attribute variables."
+msgstr "Learn how to embed dashboards, build custom visualization extensions, and manage user attribute variables."
+
+#: src/config/Sidebar.ts:9
+msgid "Light theme"
+msgstr "Light theme"
+
+#: src/config/Home.ts:15
+msgid "LIVE"
+msgstr "LIVE"
+
+#: src/config/Home.ts:18
+msgid "Live Financial Summary"
+msgstr "Live Financial Summary"
+
+#: src/config/SalesActivityFeed.ts:4
+msgid "Live Operational Ticker"
+msgstr "Live Operational Ticker"
+
+#: src/config/Home.ts:12
+msgid "Live Revenue Hub"
+msgstr "Live Revenue Hub"
+
+#: src/config/Home.ts:14
+msgid "Live Revenue Pulse"
+msgstr "Live Revenue Pulse"
+
+#: src/config/LoginPage.ts:5
+msgid "Live System Active"
+msgstr "Live System Active"
+
+#: src/config/GlobalLookerContainer.ts:4
+msgid "Loading Looker Content..."
+msgstr "Loading Looker Content..."
+
+#: src/config/Sidebar.ts:11
+msgid "Log Out"
+msgstr "Log Out"
+
+#: src/config/SourceHighlighter.ts:5
+msgid "Looker API"
+msgstr "Looker API"
+
+#: src/config/SourceHighlighter.ts:7
+msgid "Looker API / BQML"
+msgstr "Looker API / BQML"
+
+#: src/config/AgentsChatArea.ts:4
+msgid "Looker Conversational Analytics API"
+msgstr "Looker Conversational Analytics API"
+
+#: src/config/LoginPage.ts:4
+msgid "Looker eCommerce"
+msgstr "Looker eCommerce"
+
+#: src/config/Sidebar.ts:6
+msgid "Looker Embed"
+msgstr "Looker Embed"
+
+#: src/config/SourceHighlighter.ts:4
+msgid "Looker iFrame"
+msgstr "Looker iFrame"
+
+#: src/config/Home.ts:10
+msgid "Looker Semantic AI"
+msgstr "Looker Semantic AI"
+
+#: src/config/IntermediaryTimeline.ts:8
+msgid "LookML Schema Reference"
+msgstr "LookML Schema Reference"
+
+#: src/config/ReportViewer.ts:11
+msgid "Looks"
+msgstr "Looks"
+
+#: src/config/Agents.ts:5
+#: src/config/Home.ts:33
+msgid "Manage and interact with Looker AI agents."
+msgstr "Manage and interact with Looker AI agents."
+
+#: src/config/UpgradeModal.ts:43
+msgid "Maybe Later"
+msgstr "Maybe Later"
+
+#: src/config/ReportBuilder.ts:13
+msgid "Measures & Metrics"
+msgstr "Measures & Metrics"
+
+#: src/config/DateRangePicker.ts:14
+msgid "Mo"
+msgstr "Mo"
+
+#: src/config/Home.ts:5
+msgid "Monitor live cross-channel revenue performance, evaluate ML-driven business recommendations, and explore operational fulfillment streams."
+msgstr "Monitor live cross-channel revenue performance, evaluate ML-driven business recommendations, and explore operational fulfillment streams."
+
+#: src/config/UpgradeModal.ts:9
+msgid "Most Popular"
+msgstr "Most Popular"
+
+#: src/config/UpgradeModal.ts:31
+msgid "Natural language Conversational Analytics"
+msgstr "Natural language Conversational Analytics"
+
+#: src/config/AgentsSidebar.ts:6
+msgid "New chat"
+msgstr "New chat"
+
+#: src/config/SalesActivityFeed.ts:7
+msgid "New Order #12849 Finalized"
+msgstr "New Order #12849 Finalized"
+
+#: src/config/ReportViewer.ts:10
+msgid "New Report"
+msgstr "New Report"
+
+#: src/config/ReportViewer.ts:10
+#~ msgid "New Report ("
+#~ msgstr "New Report ("
+
+#: src/config/InsightsPanel.ts:14
+msgid "No briefing details provided."
+msgstr "No briefing details provided."
+
+#: src/config/ReportViewer.ts:7
+msgid "No dashboards"
+msgstr "No dashboards"
+
+#: src/config/ReportViewer.ts:12
+msgid "No looks"
+msgstr "No looks"
+
+#: src/config/ReportBuilder.ts:10
+msgid "No matching fields found for \""
+msgstr "No matching fields found for \""
+
+#: src/config/AgentsSidebar.ts:11
+msgid "No recent chats"
+msgstr "No recent chats"
+
+#: src/config/ReportBuilder.ts:14
+msgid "No rows returned for the selected query combination."
+msgstr "No rows returned for the selected query combination."
+
+#: src/config/InsightsPanel.ts:9
+msgid "No strategic AI briefings pre-generated for "
+msgstr "No strategic AI briefings pre-generated for "
+
+#: src/config/SalesActivityFeed.ts:24
+msgid "Ops & Logistics"
+msgstr "Ops & Logistics"
+
+#: src/config/LoginPage.ts:21
+msgid "Or continue with email"
+msgstr "Or continue with email"
+
+#: src/config/SalesActivityFeed.ts:26
+msgid "Order #12849"
+msgstr "Order #12849"
+
+#: src/config/SettingsDialog.ts:19
+msgid "Payload"
+msgstr "Payload"
+
+#: src/config/Navbar.ts:5
+msgid "Portal"
+msgstr "Portal"
+
+#: src/config/LoginPage.ts:14
+msgid "Privacy"
+msgstr "Privacy"
+
+#: src/config/constants.ts:232
+#: src/config/constants.ts:247
+msgid "Query Explorer"
+msgstr "Query Explorer"
+
+#: src/config/LoginPage.ts:13
+msgid "Query processing"
+msgstr "Query processing"
+
+#: src/config/Home.ts:40
+msgid "Read Docs"
+msgstr "Read Docs"
+
+#: src/config/LoginPage.ts:12
+msgid "Real-time"
+msgstr "Real-time"
+
+#: src/config/SalesActivityFeed.ts:5
+msgid "Real-time simulated multi-channel commerce occurrences"
+msgstr "Real-time simulated multi-channel commerce occurrences"
+
+#: src/config/AgentsSidebar.ts:10
+msgid "Recents"
+msgstr "Recents"
+
+#: src/config/InsightsPanel.ts:11
+msgid "Recommendations generated asynchronously and persisted via BigQuery AI.GENERATE"
+msgstr "Recommendations generated asynchronously and persisted via BigQuery AI.GENERATE"
+
+#: src/config/ReportViewer.ts:13
+msgid "Refresh folders"
+msgstr "Refresh folders"
+
+#: src/config/ReportViewer.ts:17
+msgid "Reload"
+msgstr "Reload"
+
+#: src/config/ReportViewer.ts:16
+msgid "Reload Current Report"
+msgstr "Reload Current Report"
+
+#: src/config/ReportViewer.ts:15
+msgid "report"
+msgstr "report"
+
+#: src/config/constants.ts:233
+#: src/config/constants.ts:250
+#: src/config/Home.ts:36
+#: src/config/ReportBuilder.ts:4
+msgid "Report Builder"
+msgstr "Report Builder"
+
+#: src/config/constants.ts:234
+#: src/config/constants.ts:245
+msgid "Report Viewer"
+msgstr "Report Viewer"
+
+#: src/config/ReportViewer.ts:4
+msgid "Reports"
+msgstr "Reports"
+
+#: src/config/ReportBuilder.ts:9
+msgid "Reset columns to default"
+msgstr "Reset columns to default"
+
+#: src/config/SalesActivityFeed.ts:23
+msgid "Revenue"
+msgstr "Revenue"
+
+#: src/config/IntermediaryTimeline.ts:15
+msgid "rows"
+msgstr "rows"
+
+#: src/config/DateRangePicker.ts:19
+msgid "Sa"
+msgstr "Sa"
+
+#: src/config/Home.ts:25
+msgid "Sales Activity Stream"
+msgstr "Sales Activity Stream"
+
+#: src/config/AgentsSidebar.ts:9
+msgid "Search chats..."
+msgstr "Search chats..."
+
+#: src/config/ReportBuilder.ts:6
+msgid "Search fields & groups to build report..."
+msgstr "Search fields & groups to build report..."
+
+#: src/config/ErrorBoundary.ts:4
+msgid "Section Display Error"
+msgstr "Section Display Error"
+
+#: src/config/LoginPage.ts:26
+msgid "Secure 10-minute encrypted local storage session"
+msgstr "Secure 10-minute encrypted local storage session"
+
+#: src/config/LoginPage.ts:16
+msgid "Security"
+msgstr "Security"
+
+#: src/config/ReportViewer.ts:14
+msgid "Select a look or a dashboard"
+msgstr "Select a look or a dashboard"
+
+#: src/config/DateRangePicker.ts:12
+msgid "Select Date Range"
+msgstr "Select Date Range"
+
+#: src/config/AgentsChatArea.ts:8
+msgid "Send message"
+msgstr "Send message"
+
+#: src/config/SettingsDialog.ts:4
+#: src/config/Sidebar.ts:10
+msgid "Settings"
+msgstr "Settings"
+
+#: src/config/IntermediaryTimeline.ts:14
+msgid "Showing first 100 of"
+msgstr "Showing first 100 of"
+
+#: src/config/LoginPage.ts:18
+msgid "Sign in to your e-commerce analytics workspace"
+msgstr "Sign in to your e-commerce analytics workspace"
+
+#: src/config/LoginPage.ts:19
+msgid "Sign in with Google"
+msgstr "Sign in with Google"
+
+#: src/config/LoginPage.ts:20
+msgid "Sign in with Microsoft"
+msgstr "Sign in with Microsoft"
+
+#: src/config/SettingsDialog.ts:13
+#: src/config/UpgradeModal.ts:13
+msgid "Simple Embed User"
+msgstr "Simple Embed User"
+
+#: src/config/constants.ts:165
+msgid "Simple User"
+msgstr "Simple User"
+
+#: src/config/SalesActivityFeed.ts:6
+msgid "Simulating Ticker"
+msgstr "Simulating Ticker"
+
+#: src/config/SettingsDialog.ts:11
+msgid "Source"
+msgstr "Source"
+
+#: src/config/UpgradeModal.ts:27
+msgid "Standard filtering & cross-filtering"
+msgstr "Standard filtering & cross-filtering"
+
+#: src/config/IntermediaryTimeline.ts:5
+msgid "step"
+msgstr "step"
+
+#: src/config/IntermediaryTimeline.ts:6
+msgid "steps"
+msgstr "steps"
+
+#: src/config/InsightsPanel.ts:13
+msgid "Strategic Insight"
+msgstr "Strategic Insight"
+
+#: src/config/DateRangePicker.ts:13
+msgid "Su"
+msgstr "Su"
+
+#: src/config/UpgradeModal.ts:19
+msgid "Supercharge workflow with natural language querying and autonomous data agents."
+msgstr "Supercharge workflow with natural language querying and autonomous data agents."
+
+#: src/config/UpgradeModal.ts:41
+msgid "Switch to Plan"
+msgstr "Switch to Plan"
+
+#: src/config/LoginPage.ts:15
+msgid "Terms"
+msgstr "Terms"
+
+#: src/config/DateRangePicker.ts:17
+msgid "Th"
+msgstr "Th"
+
+#: src/config/AccessDenied.ts:5
+msgid "The "
+msgstr "The "
+
+#: src/config/Home.ts:6
+msgid "The Look Analytics Platform"
+msgstr "The Look Analytics Platform"
+
+#: src/config/DateRangePicker.ts:9
+msgid "This Month"
+msgstr "This Month"
+
+#: src/config/UpgradeModal.ts:7
+msgid "This route requires a higher access tier. Select a plan below to instantly upgrade and continue."
+msgstr "This route requires a higher access tier. Select a plan below to instantly upgrade and continue."
+
+#: src/config/SalesActivityFeed.ts:27
+msgid "Tier 1 Profile"
+msgstr "Tier 1 Profile"
+
+#: src/config/DateRangePicker.ts:5
+msgid "Today"
+msgstr "Today"
+
+#: src/config/Home.ts:21
+msgid "Total Orders"
+msgstr "Total Orders"
+
+#: src/config/Home.ts:19
+msgid "Total Revenue"
+msgstr "Total Revenue"
+
+#: src/config/LoginPage.ts:9
+msgid "Total trackable GGM"
+msgstr "Total trackable GGM"
+
+#: src/config/ErrorBoundary.ts:6
+msgid "Try Again"
+msgstr "Try Again"
+
+#: src/config/DateRangePicker.ts:15
+msgid "Tu"
+msgstr "Tu"
+
+#: src/config/UpgradeModal.ts:6
+msgid "Unlock powerful analytics, AI assistants, and custom report creation. Switch plans instantly at any time."
+msgstr "Unlock powerful analytics, AI assistants, and custom report creation. Switch plans instantly at any time."
+
+#: src/config/UpgradeModal.ts:37
+msgid "Unrestricted LookML Query Explorer"
+msgstr "Unrestricted LookML Query Explorer"
+
+#: src/config/AgentsSidebar.ts:4
+msgid "Untitled Chat"
+msgstr "Untitled Chat"
+
+#: src/config/AccessDenied.ts:10
+msgid "Upgrade Access"
+msgstr "Upgrade Access"
+
+#: src/config/UpgradeModal.ts:5
+msgid "Upgrade Your Workspace"
+msgstr "Upgrade Your Workspace"
+
+#: src/config/ReportViewer.ts:8
+msgid "User Created"
+msgstr "User Created"
+
+#: src/config/UserDetailsDialog.ts:4
+msgid "User Details"
+msgstr "User Details"
+
+#: src/config/UserObjectFlyout.ts:4
+msgid "User Object Preview"
+msgstr "User Object Preview"
+
+#: src/config/SettingsDialog.ts:5
+#: src/config/SettingsDialog.ts:8
+msgid "User Type"
+msgstr "User Type"
+
+#: src/config/SettingsDialog.ts:14
+msgid "View and query metrics with standard dashboard interaction levels."
+msgstr "View and query metrics with standard dashboard interaction levels."
+
+#: src/config/Home.ts:29
+msgid "View embedded analytical dashboard reports and real-time business insights."
+msgstr "View embedded analytical dashboard reports and real-time business insights."
+
+#: src/config/UpgradeModal.ts:14
+msgid "Viewer"
+msgstr "Viewer"
+
+#: src/config/IntermediaryTimeline.ts:11
+msgid "Views"
+msgstr "Views"
+
+#: src/config/SalesActivityFeed.ts:10
+msgid "VIP Customer Checkout"
+msgstr "VIP Customer Checkout"
+
+#: src/config/Dashboard.ts:5
+msgid "Visual analytical dashboards and reports."
+msgstr "Visual analytical dashboards and reports."
+
+#: src/config/SalesActivityFeed.ts:14
+msgid "Warehouse West fulfilled 142 expedited priority shipments."
+msgstr "Warehouse West fulfilled 142 expedited priority shipments."
+
+#: src/config/GlobalLookerContainer.ts:5
+msgid "Warmbooting Looker Session..."
+msgstr "Warmbooting Looker Session..."
+
+#: src/config/InsightsPanel.ts:5
+msgid "Warmbooting Session..."
+msgstr "Warmbooting Session..."
+
+#: src/config/KpiCard.ts:5
+msgid "Warmbooting..."
+msgstr "Warmbooting..."
+
+#: src/config/DateRangePicker.ts:16
+msgid "We"
+msgstr "We"
+
+#: src/config/LoginPage.ts:17
+msgid "Welcome Back"
+msgstr "Welcome Back"
+
+#: src/config/LoginPage.ts:22
+msgid "Work Email"
+msgstr "Work Email"
+
+#: src/config/IntermediaryTimeline.ts:7
+msgid "Working"
+msgstr "Working"
+
+#: src/config/Navbar.ts:4
+msgid "Workspace"
+msgstr "Workspace"
+
+#: src/config/UpgradeModal.ts:4
+msgid "Workspace Tier Upgrade"
+msgstr "Workspace Tier Upgrade"
+
+#: src/config/DateRangePicker.ts:6
+msgid "Yesterday"
+msgstr "Yesterday"

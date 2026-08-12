@@ -1,0 +1,27 @@
+import { msg } from "@lingui/core/macro";
+
+export const LoginPage = {
+  SHOWCASE_BRAND: msg`Estes Express Lines`,
+  SHOWCASE_BADGE: msg`Live Freight Fleet Active`,
+  SHOWCASE_TITLE: msg`Freight & LTL Logistics Suite`,
+  SHOWCASE_DESC: msg`Access North America’s largest privately held freight transportation analytics: 300+ terminals, 13,000+ doors, 17.6B+ lbs shipped, and real-time fleet intelligence.`,
+  MOCK_METRIC_VAL: msg`17.66B lbs`,
+  MOCK_METRIC_LBL: msg`2025 Shipment Tonnage`,
+  MOCK_YIELD_TITLE: msg`#1 LTL Carrier`,
+  MOCK_YIELD_DESC: msg`4-Year Mastio Best Value Rating`,
+  MOCK_REALTIME_TITLE: msg`300+ Terminals`,
+  MOCK_REALTIME_DESC: msg`50-State Direct Service`,
+  FOOTER_PRIVACY: msg`Privacy Policy`,
+  FOOTER_TERMS: msg`Terms of Service`,
+  FOOTER_SECURITY: msg`Security`,
+  FORM_TITLE: msg`Estes Freight Portal`,
+  FORM_SUBTITLE: msg`Sign in to your Estes logistics analytics workspace`,
+  BTN_GOOGLE: msg`Sign in with Google`,
+  BTN_MICROSOFT: msg`Sign in with Microsoft`,
+  DIVIDER_EMAIL: msg`Or continue with email`,
+  LABEL_EMAIL: msg`Work Email`,
+  PLACEHOLDER_EMAIL: msg`executive@estes-express.com`,
+  BTN_AUTHENTICATING: msg`Authenticating Session...`,
+  BTN_SUBMIT: msg`Access Workspace`,
+  FOOTER_HINT: msg`Secure encrypted local storage session`,
+};

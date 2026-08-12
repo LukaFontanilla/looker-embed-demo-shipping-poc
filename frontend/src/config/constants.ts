@@ -1,0 +1,307 @@
+import type { EmbedType, NavItem } from "../types";
+
+/**
+ * Portal application configuration constants.
+ * Hardcoded variables are consolidated here to allow environment-specific overrides.
+ */
+
+declare global {
+  interface Window {
+    vite?: Record<string, any>;
+  }
+}
+
+const getViteConfig = (key: string): string | undefined =>
+  typeof window !== "undefined" && window.vite
+    ? (window.vite[key] as string)
+    : undefined;
+
+// Base URL of the backend API
+export const API_BASE_URL =
+  getViteConfig("api_base_url") ||
+  (import.meta.env.VITE_API_BASE_URL as string) ||
+  "";
+
+// Looker Instance URL for frontend use
+export const LOOKER_INSTANCE_URL =
+  getViteConfig("looker_instance_url") ||
+  (import.meta.env.VITE_LOOKER_INSTANCE_URL as string) ||
+  "";
+
+// Parse host from Looker Instance URL
+const getHostName = (url: string): string => {
+  try {
+    return new URL(url).host;
+  } catch (e) {
+    return url.replace(/^(https?:\/\/)?(www\.)?/, "").split("/")[0];
+  }
+};
+
+export const LOOKER_HOST = getHostName(LOOKER_INSTANCE_URL);
+
+// Looker Conversational Analytics Agent ID used for embedding the chat interface
+export const CHAT_AGENT_ID =
+  getViteConfig("chat_agent_id") ||
+  (import.meta.env.VITE_CHAT_AGENT_ID as string) ||
+  "ea1262d262ab43b1a9bb23152f25c236";
+
+// Customizations loaded from environment variables
+export const DASHBOARD_ID =
+  getViteConfig("dashboard_id") ||
+  (import.meta.env.VITE_DASHBOARD_ID as string) ||
+  "embed_demo::shipping_logistics__operations_overview";
+export const DASHBOARD_DATE_FILTER_NAMES: string[] = (
+  getViteConfig("dashboard_date_filter_names") ||
+  (import.meta.env.VITE_DASHBOARD_DATE_FILTER_NAMES as string) ||
+  "Date Range,Date"
+)
+  .split(",")
+  .map((name) => name.trim())
+  .filter(Boolean);
+export const BRAND_OPTIONS = ["Levi's", "Calvin Klein", "Allegra K", "Columbia"];
+export const DEFAULT_EMBED_THEME = "Shipping_Light";
+
+export const EMBD_THEME =
+  getViteConfig("theme") ||
+  (import.meta.env.VITE_THEME as string) ||
+  DEFAULT_EMBED_THEME;
+
+export const sanitizeBrandName = (brand: string): string => {
+  return brand
+    .replace(/\s+/g, "_")
+    .replace(/[^a-zA-Z0-9_]/g, "");
+};
+
+/**
+ * Resolves and sanitizes the Looker theme name matching the active brand and color scheme.
+ * Uses the dedicated Shipping_Light and Shipping_Dark embed themes regardless of what brand is selected.
+ */
+export const getEmbedThemeName = (isDark?: boolean, _brand?: string): string => {
+  return isDark ? "Shipping_Dark" : "Shipping_Light";
+};
+
+export const EXPLORE_PATH =
+  getViteConfig("explore_path") ||
+  (import.meta.env.VITE_EXPLORE_PATH as string) ||
+  "embed_demo/order_items";
+export const LOOKER_FOLDER_ID =
+  getViteConfig("looker_folder_id") ||
+  (import.meta.env.VITE_LOOKER_FOLDER_ID as string) ||
+  "12542";
+
+// eCommerce Home Page KPI Query IDs
+export const KPI_TOTAL_REVENUE_QUERY_ID = "wMgx8F7Kp2bNQsn3DMyH6Dm6g3xjG7qc";
+export const KPI_TOTAL_ORDERS_QUERY_ID = "SdvjNhGRHfphVc5G8nD425qq8Cg8RVcQ";
+export const KPI_AVERAGE_ORDER_VALUE_QUERY_ID =
+  "HhGN8kYyvNzFkRmXnjCS3rxKKhFhqqfP";
+
+// Static mappings for Looker Embed SDK targets
+export const LOOKER_EMBED_PATHS = {
+  dashboard: `/embed/dashboards/${DASHBOARD_ID}?theme=${EMBD_THEME}&ca_chat=true`,
+  conversationalAnalytics: `/embed/conversations?theme=${EMBD_THEME}`,
+  explore: `/embed/explore/${EXPLORE_PATH}?theme=${EMBD_THEME}`,
+  reportBuilder: "/embed/report-builder?theme=${EMBD_THEME}",
+  agents: "/embed/agents?theme=${EMBD_THEME}",
+  reportViewer: "",
+} as const;
+
+/**
+ * Returns the Looker iframe path corresponding to the frontend portal route.
+ * Falls back to conversational analytics if the path is unknown.
+ */
+export const getLookerPath = (path: string, themeName?: string): string => {
+  if (!themeName) {
+    switch (path) {
+      case "/dashboard":
+        return LOOKER_EMBED_PATHS.dashboard;
+      case "/conversational-analytics":
+        return LOOKER_EMBED_PATHS.conversationalAnalytics;
+      case "/explore":
+        return LOOKER_EMBED_PATHS.explore;
+      case "/report-builder":
+        return LOOKER_EMBED_PATHS.reportBuilder;
+      case "/agents":
+        return LOOKER_EMBED_PATHS.agents;
+      case "/report-viewer":
+        return LOOKER_EMBED_PATHS.reportViewer;
+      default:
+        // Fallback path
+        return LOOKER_EMBED_PATHS.conversationalAnalytics;
+    }
+  }
+  switch (path) {
+    case "/dashboard":
+      return `/embed/dashboards/${DASHBOARD_ID}?theme=${themeName}&ca_chat=true`;
+    case "/conversational-analytics":
+      return `/embed/conversations?theme=${themeName}`;
+      // return `/embed/conversations?ds.agent=${CHAT_AGENT_ID}&theme=${themeName}`;
+    case "/explore":
+      return `/embed/explore/${EXPLORE_PATH}?theme=${themeName}`;
+    case "/report-builder":
+      return `/embed/report-builder?theme=${themeName}`;
+    case "/agents":
+      return `/embed/agents?theme=${themeName}`;
+    case "/report-viewer":
+      return "";
+    default:
+      // Fallback path
+      return `/embed/conversations?theme=${themeName}`;
+  }
+};
+
+import { msg } from "@lingui/core/macro";
+
+// User Profile Configuration
+export const DEFAULT_USER_NAME = "Demo User";
+
+export const USER_ROLE_MAPPINGS: Record<EmbedType, any> = {
+  simple: msg`Simple User`,
+  gemini: msg`Gemini User`,
+  advanced: msg`Advanced User`,
+};
+
+export const DEFAULT_LANGUAGE = "English";
+export const DEFAULT_BRAND = "Levi's";
+export const DEFAULT_EMBED_TYPE: EmbedType = "simple";
+
+export const LANGUAGE_OPTIONS = ["English", "Spanish", "French", "German", "Japanese"];
+
+export const ROLE_ID_MAPPINGS: Record<EmbedType, string> = {
+  simple: "viewer",
+  gemini: "gemini",
+  advanced: "explorer",
+};
+
+export const LANGUAGE_LOCALE_MAPPINGS: Record<string, string> = {
+  English: "en",
+  Spanish: "es_ES",
+  French: "fr_FR",
+  German: "de_DE",
+  Japanese: "ja_JP",
+};
+
+export const LOOKER_ROUTES = [
+  "/dashboard",
+  "/explore",
+  "/conversational-analytics",
+  "/report-builder",
+  "/agents",
+  "/report-viewer",
+];
+
+export const GATED_ROUTES_BY_ROLE: Record<EmbedType, string[]> = {
+  simple: [
+    "/conversational-analytics",
+    "/agents",
+    "/explore",
+    "/report-viewer",
+    "/report-builder",
+  ],
+  gemini: [
+    "/explore",
+    "/report-viewer",
+    "/report-builder",
+  ],
+  advanced: [],
+};
+
+export const isRouteGated = (path: string, role: EmbedType): boolean => {
+  return GATED_ROUTES_BY_ROLE[role]?.includes(path) ?? false;
+};
+
+export const GATED_ROUTES = [
+  "/conversational-analytics",
+  "/agents",
+  "/explore",
+  "/report-viewer",
+  "/report-builder",
+];
+
+export const ROUTE_BREADCRUMB_MAPPINGS: Record<string, any> = {
+  "/": msg`Home`,
+  "/dashboard": msg`Dashboard`,
+  "/conversational-analytics": msg`Conversational Analytics`,
+  "/agents": msg`Agents`,
+  "/explore": msg`Query Explorer`,
+  "/report-builder": msg`Report Builder`,
+  "/report-viewer": msg`Report Viewer`,
+};
+
+export const PORTAL_NAV_ITEMS: NavItem[] = [
+  { to: "/", label: msg`Home`, iconName: "Home", exact: true },
+  { to: "/dashboard", label: msg`Dashboard`, iconName: "LayoutDashboard" },
+  {
+    to: "/conversational-analytics",
+    label: msg`Conversational Analytics`,
+    iconName: "MessageSquare",
+  },
+  { to: "/report-viewer", label: msg`Report Viewer`, iconName: "FileText" },
+  { to: "/agents", label: msg`Agents`, iconName: "Sparkles" },
+  { to: "/explore", label: msg`Query Explorer`, iconName: "Compass" },
+  {
+    to: "/report-builder",
+    label: msg`Report Builder`,
+    iconName: "FileSpreadsheet",
+  },
+];
+
+export const ROLE_PERMISSIONS_MAPPINGS: Record<EmbedType, string[]> = {
+  simple: [
+    "access_data",
+    "see_looks",
+    "see_user_dashboards",
+    "see_lookml_dashboards",
+  ],
+  gemini: [
+    "access_data",
+    "see_looks",
+    "see_user_dashboards",
+    "see_lookml_dashboards",
+    "gemini_in_looker",
+    "chat_with_agent",
+    "chat_with_explore",
+  ],
+  advanced: [
+    "access_data",
+    "see_looks",
+    "see_user_dashboards",
+    "save_content",
+    "see_lookml_dashboards",
+    "explore",
+    "embed_browse_spaces",
+    "gemini_in_looker",
+    "chat_with_agent",
+    "chat_with_explore",
+    "save_agents",
+    "admin_agents",
+  ],
+};
+
+export const getRoleUserObject = (
+  role: EmbedType,
+  currentLookerUser?: any,
+  language?: string,
+  brand?: string
+) => {
+  const roleId = ROLE_ID_MAPPINGS[role] || "viewer";
+  const perms = ROLE_PERMISSIONS_MAPPINGS[role] || ROLE_PERMISSIONS_MAPPINGS.simple;
+  if (currentLookerUser && currentLookerUser.looker_user) {
+    return {
+      ...currentLookerUser.looker_user,
+      role_id: roleId,
+      permissions: perms,
+      group_ids: ["9"],
+    };
+  }
+  return {
+    looker_user_id: `embed_user_${roleId}`,
+    role_id: roleId,
+    permissions: perms,
+    models: ["thelook", "embed_demo"],
+    group_ids: ["9"],
+    user_attributes: {
+      locale: LANGUAGE_LOCALE_MAPPINGS[language || "English"] || "en",
+      brand: brand || "Levi's",
+    },
+  };
+};

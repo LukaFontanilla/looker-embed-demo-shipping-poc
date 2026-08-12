@@ -1,0 +1,24 @@
+.env
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# TODO - add back later
+uv.lock
+
+tmp
+
+cert.pem
+key.pem
+
+node_modules
+.modules/
+scripts/old-demos

@@ -1,0 +1,99 @@
+.portalNavbar {
+  height: 70px;
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--space-6);
+  flex-shrink: 0;
+  border-bottom: 3px solid #D32F2F;
+  box-sizing: border-box;
+}
+
+.navbarBreadcrumb {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-sm);
+  color: #ffffff;
+}
+
+.breadcrumbRoot {
+  color: #FFC400;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.breadcrumbSeparator {
+  color: #666666;
+}
+
+.breadcrumbCurrent {
+  color: #ffffff;
+}
+
+.navbarActions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.navbarBtnIcon {
+  background: #1A1A1A;
+  border: 1px solid #404040;
+  color: #ffffff;
+  width: 36px;
+  height: 36px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.navbarBtnIcon:hover {
+  background: #2E2E2E;
+  color: #FFC400;
+  border-color: #FFC400;
+}
+
+.systemStatus {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+  background: var(--surface);
+  padding: var(--space-1-5) var(--space-3-5);
+  border-radius: var(--radius-full);
+  border: 1px solid var(--border);
+}
+
+.statusDot {
+  width: 8px;
+  height: 8px;
+  border-radius: var(--radius-full);
+}
+
+.statusDot.success {
+  background-color: hsl(142, 72%, 45%);
+}
+
+.navbarSettingsContainer {
+  position: relative;
+}
+
+.settingsDropdown {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 8px);
+  width: 280px;
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  padding: var(--space-2) 0;
+}

@@ -1,0 +1,1046 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-06-26 16:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: ja\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/config/Sidebar.ts:7
+msgid " (Locked)"
+msgstr " (ロック中)"
+
+#: src/config/AccessDenied.ts:8
+msgid " access level. Your current profile configuration does not have permission to view or interact with this feature."
+msgstr " のアクセスレベル。現在のプロファイル設定では、この機能の表示や操作を行う権限がありません。"
+
+#: src/config/AccessDenied.ts:6
+msgid " workspace requires an "
+msgstr " ワークスペースには以下が必要です: "
+
+#: src/config/InsightsPanel.ts:10
+msgid " yet."
+msgstr " 未実行です。"
+
+#: src/config/InsightsPanel.ts:16
+msgid ". Synchronizing with Looker database..."
+msgstr "。Lookerデータベースと同期中..."
+
+#: src/config/Home.ts:20
+msgid "+14.2% vs last month"
+msgstr "先月比 +14.2%"
+
+#: src/config/Home.ts:16
+msgid "+14.8% vs target"
+msgstr "目標比 +14.8%"
+
+#: src/config/Home.ts:24
+msgid "+5.1% target yield"
+msgstr "目標利回り +5.1%"
+
+#: src/config/Home.ts:22
+msgid "+8.4% vs last month"
+msgstr "先月比 +8.4%"
+
+#: src/config/LoginPage.ts:8
+msgid "$1.24B"
+msgstr "$1.24B"
+
+#: src/config/SalesActivityFeed.ts:28
+msgid "142 Units Dispatched"
+msgstr "142件発送済み"
+
+#: src/config/SalesActivityFeed.ts:15
+msgid "18m ago"
+msgstr "18分前"
+
+#: src/config/SalesActivityFeed.ts:18
+msgid "1h ago"
+msgstr "1時間前"
+
+#: src/config/SalesActivityFeed.ts:21
+msgid "2h ago"
+msgstr "2時間前"
+
+#: src/config/SalesActivityFeed.ts:12
+msgid "4m ago"
+msgstr "4分前"
+
+#: src/config/LoginPage.ts:10
+msgid "99.9% Yield"
+msgstr "利回り 99.9%"
+
+#: src/config/LoginPage.ts:7
+msgid "Access enterprise real-time gross merchandise performance, multi-channel attribution analytics, and predictive ML fulfillment streams in a unified portal."
+msgstr "統合ポータルで、エンタープライズ向けのリアルタイム総商品流通業績、マルチチャネルアトリビューション分析、予測MLフルフィルメントストリームにアクセスします。"
+
+#: src/config/AccessDenied.ts:4
+msgid "Access Restricted"
+msgstr "アクセス制限"
+
+#: src/config/LoginPage.ts:25
+msgid "Access Workspace"
+msgstr "ワークスペースにアクセス"
+
+#: src/config/UpgradeModal.ts:42
+msgid "Active Plan"
+msgstr "現在のプラン"
+
+#: src/config/ReportBuilder.ts:7
+msgid "Add field..."
+msgstr "フィールドを追加..."
+
+#: src/config/SettingsDialog.ts:17
+#: src/config/UpgradeModal.ts:21
+msgid "Advanced Embed User"
+msgstr "高度な埋め込みユーザー"
+
+#: src/config/AccessDenied.ts:7
+#: src/config/constants.ts:167
+msgid "Advanced User"
+msgstr "上級ユーザー"
+
+#: src/config/IntermediaryTimeline.ts:4
+msgid "Agent Progress"
+msgstr "エージェントの進行状況"
+
+#: src/config/Agents.ts:4
+#: src/config/constants.ts:231
+#: src/config/constants.ts:246
+#: src/config/Home.ts:32
+msgid "Agents"
+msgstr "エージェント"
+
+#: src/config/Home.ts:13
+msgid "AI Recommendations"
+msgstr "AIの推奨事項"
+
+#: src/config/Home.ts:26
+#: src/config/InsightsPanel.ts:4
+msgid "AI Strategic Executive Briefing"
+msgstr "AI戦略エグゼクティブ・ブリーフィング"
+
+#: src/config/UpgradeModal.ts:33
+msgid "AI-powered executive data summaries"
+msgstr "AIを活用したエグゼクティブ向けデータサマリー"
+
+#: src/config/SalesActivityFeed.ts:25
+msgid "Alerts"
+msgstr "アラート"
+
+#: src/config/SalesActivityFeed.ts:22
+msgid "All Stream"
+msgstr "すべて"
+
+#: src/config/DateRangePicker.ts:4
+#~ msgid "All Time"
+#~ msgstr "全期間"
+
+#: src/config/ErrorBoundary.ts:5
+msgid "An unexpected error occurred while rendering this component."
+msgstr "このコンポーネントのレンダリング中に予期しないエラーが発生しました。"
+
+#: src/config/Home.ts:27
+msgid "Analytical Portals"
+msgstr "分析ポータル"
+
+#: src/config/Home.ts:7
+msgid "Analytics Platform"
+msgstr "分析プラットフォーム"
+
+#: src/config/MessageBubble.ts:4
+msgid "Analyzing data and generating query..."
+msgstr "データを分析しクエリを作成中..."
+
+#: src/config/Home.ts:17
+msgid "AOV Yield"
+msgstr "平均注文額 (AOV) 収益"
+
+#: src/config/InsightsPanel.ts:15
+msgid "Applied optimal dynamic pricing and ad rules for "
+msgstr "最適な動的価格設定および広告ルールを適用: "
+
+#: src/config/DateRangePicker.ts:21
+msgid "Apply"
+msgstr "適用"
+
+#: src/config/InsightsPanel.ts:12
+msgid "Apply All Strategic Rules"
+msgstr "すべての戦略ルールを適用"
+
+#: src/config/ReportViewer.ts:5
+msgid "as of"
+msgstr "時点"
+
+#: src/config/AgentsChatArea.ts:7
+msgid "Ask a question about your data..."
+msgstr "データに関する質問を入力してください..."
+
+#: src/config/AgentsChatArea.ts:6
+msgid "Ask away!"
+msgstr "質問してください！"
+
+#: src/config/LoginPage.ts:24
+msgid "Authenticating Session..."
+msgstr "セッション認証中..."
+
+#: src/config/SalesActivityFeed.ts:16
+msgid "Automated Return Processed"
+msgstr "自動返品処理完了"
+
+#: src/config/UpgradeModal.ts:32
+msgid "Autonomous AI Data Agents & assistants"
+msgstr "自律型AIデータエージェント＆アシスタント"
+
+#: src/config/Home.ts:23
+msgid "Average Order Value"
+msgstr "平均注文額"
+
+#: src/config/SettingsDialog.ts:7
+#: src/config/SettingsDialog.ts:10
+msgid "Brand"
+msgstr "ブランド"
+
+#: src/config/InsightsPanel.ts:7
+msgid "Brand Focus: "
+msgstr "ブランドフォーカス: "
+
+#: src/config/SalesActivityFeed.ts:11
+msgid "Brand Loyal customer (Tier 1) completed repeat purchase."
+msgstr "ブランドロイヤル顧客（Tier 1）がリピート購入を完了しました。"
+
+#: src/config/Home.ts:35
+msgid "Build and inspect visual queries, charts, and custom data filters on demand."
+msgstr "オンデマンドでビジュアルクエリ、チャート、カスタムデータフィルターを作成・検査します。"
+
+#: src/config/ReportBuilder.ts:5
+msgid "Build custom integrated reports by searching and combining fields across multiple explores."
+msgstr "複数のExplore全体でフィールドを検索および組み合わせて、カスタム統合レポートを作成します。"
+
+#: src/config/Explore.ts:5
+msgid "Build visual queries on demand."
+msgstr "オンデマンドでビジュアルクエリを作成します。"
+
+#: src/config/Home.ts:8
+msgid "Checkout Stream"
+msgstr "チェックアウトストリーム"
+
+#: src/config/DateRangePicker.ts:20
+msgid "Clear"
+msgstr "クリア"
+
+#: src/config/AgentsChatArea.ts:5
+msgid "Clear chat"
+msgstr "チャットをクリア"
+
+#: src/config/ReportBuilder.ts:8
+msgid "Clear search text"
+msgstr "検索テキストをクリア"
+
+#: src/config/AgentsSidebar.ts:8
+msgid "Collapse menu"
+msgstr "メニューを折りたたむ"
+
+#: src/config/Sidebar.ts:5
+msgid "Collapse sidebar"
+msgstr "サイドバーを折りたたむ"
+
+#: src/config/UpgradeModal.ts:22
+msgid "Complete developer and analyst freedom with custom LookML exploration and reporting."
+msgstr "カスタムLookML探索とレポート作成による、開発者とアナリストへの完全な自由。"
+
+#: src/config/IntermediaryTimeline.ts:9
+msgid "Consulted metadata for Model"
+msgstr "モデルのメタデータを参照"
+
+#: src/config/UpgradeModal.ts:18
+msgid "Conversational AI"
+msgstr "対話型AI"
+
+#: src/config/constants.ts:230
+#: src/config/constants.ts:242
+#: src/config/ConversationalAnalytics.ts:4
+#: src/config/Home.ts:30
+msgid "Conversational Analytics"
+msgstr "対話型分析"
+
+#: src/config/AgentsSidebar.ts:7
+msgid "Conversations"
+msgstr "会話"
+
+#: src/config/UserDetailsDialog.ts:7
+msgid "Copy JSON to clipboard"
+msgstr "JSONをクリップボードにコピー"
+
+#: src/config/ReportViewer.ts:9
+msgid "Create new report"
+msgstr "新規レポートを作成"
+
+#: src/config/SettingsDialog.ts:18
+msgid "Create, customize layouts, perform drill downs and save agent templates."
+msgstr "レイアウトの作成・カスタマイズ、ドリルダウンの実行、エージェントテンプレートの保存を行います。"
+
+#: src/config/SalesActivityFeed.ts:30
+msgid "CRITICAL: <15 Restock"
+msgstr "要補充: 残り15個未満"
+
+#: src/config/UpgradeModal.ts:8
+msgid "Current Plan"
+msgstr "現在のプラン"
+
+#: src/config/UpgradeModal.ts:38
+msgid "Custom calculated dimensions & drill-downs"
+msgstr "カスタム計算ディメンションとドリルダウン"
+
+#: src/config/DateRangePicker.ts:11
+msgid "Custom Filter"
+msgstr "カスタムフィルター"
+
+#: src/config/SalesActivityFeed.ts:8
+msgid "Customer ordered 3 items including Premium Thermal Outerwear."
+msgstr "顧客がプレミアムサーマルアウターウェアを含む3点の商品を注文しました。"
+
+#: src/config/Sidebar.ts:8
+msgid "Dark theme"
+msgstr "ダークテーマ"
+
+#: src/config/constants.ts:229
+#: src/config/constants.ts:239
+#: src/config/Dashboard.ts:4
+#: src/config/Home.ts:28
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+#: src/config/ReportViewer.ts:6
+msgid "Dashboards"
+msgstr "ダッシュボード"
+
+#: src/config/Home.ts:11
+msgid "Data Fabric"
+msgstr "データファブリック"
+
+#: src/config/IntermediaryTimeline.ts:13
+msgid "Data Result Preview"
+msgstr "データ結果のプレビュー"
+
+#: src/config/KpiCard.ts:4
+msgid "Data unavailable"
+msgstr "データなし"
+
+#: src/config/ReportBuilder.ts:11
+msgid "Dates & Timeframes"
+msgstr "日付と期間"
+
+#: src/config/AgentsSidebar.ts:12
+msgid "Delete chat"
+msgstr "チャットを削除"
+
+#: src/config/Home.ts:37
+msgid "Design personalized dashboard layouts, drag-and-drop elements, and templates."
+msgstr "パーソナライズされたダッシュボードレイアウト、ドラッグ＆ドロップ要素、テンプレートを設計します。"
+
+#: src/config/Home.ts:38
+msgid "Developer documentation"
+msgstr "開発者ドキュメント"
+
+#: src/config/ReportBuilder.ts:12
+msgid "Dimensions"
+msgstr "ディメンション"
+
+#: src/config/UserDetailsDialog.ts:6
+msgid "Disabled"
+msgstr "無効"
+
+#: src/config/GlobalLookerContainer.ts:6
+msgid "Embed Error:"
+msgstr "埋め込みエラー:"
+
+#: src/config/SettingsDialog.ts:12
+msgid "Enable development source data"
+msgstr "開発ソースデータを有効にする"
+
+#: src/config/UserDetailsDialog.ts:5
+msgid "Enabled"
+msgstr "有効"
+
+#: src/config/UpgradeModal.ts:15
+msgid "Essential analytics access with standard dashboard exploration and metric viewing."
+msgstr "標準的なダッシュボード探索と指標表示を備えた必須のアナリティクスアクセス。"
+
+#: src/config/UpgradeModal.ts:35
+msgid "Everything in Gemini Embed User"
+msgstr "Gemini Embed ユーザーのすべての機能"
+
+#: src/config/UpgradeModal.ts:30
+msgid "Everything in Simple Embed User"
+msgstr "シンプル Embed ユーザーのすべての機能"
+
+#: src/config/SalesActivityFeed.ts:29
+msgid "Exchange #8921"
+msgstr "交換 #8921"
+
+#: src/config/SalesActivityFeed.ts:17
+msgid "Exchange initiated for SKU #8921 (Size mismatch)."
+msgstr "SKU #8921（サイズ不一致）の交換を開始しました。"
+
+#: src/config/Home.ts:4
+msgid "Executive eCommerce Hub"
+msgstr "エグゼクティブ eCommerce ハブ"
+
+#: src/config/LoginPage.ts:6
+msgid "Executive Intelligence Suite"
+msgstr "エグゼクティブ インテリジェンス スイート"
+
+#: src/config/LoginPage.ts:23
+msgid "executive@company.com"
+msgstr "executive@company.com"
+
+#: src/config/AgentsSidebar.ts:5
+msgid "Expand menu"
+msgstr "メニューを展開"
+
+#: src/config/Sidebar.ts:4
+msgid "Expand sidebar"
+msgstr "サイドバーを展開"
+
+#: src/config/Explore.ts:4
+#: src/config/Home.ts:34
+#: src/config/IntermediaryTimeline.ts:10
+msgid "Explore"
+msgstr "Explore"
+
+#: src/config/UpgradeModal.ts:23
+msgid "Explorer & Builder"
+msgstr "エクスプローラー＆ビルダー"
+
+#: src/config/UpgradeModal.ts:28
+msgid "Export and view generated reports"
+msgstr "生成されたレポートのエクスポートと表示"
+
+#: src/config/InsightsPanel.ts:8
+msgid "Failed to load dynamic AI Executive Briefings from BigQuery."
+msgstr "BigQueryから動的AIエグゼクティブブリーフィングの読み込みに失敗しました。"
+
+#: src/config/InsightsPanel.ts:6
+msgid "Fetching Briefing..."
+msgstr "ブリーフィングを取得中..."
+
+#: src/config/KpiCard.ts:6
+msgid "Fetching..."
+msgstr "取得中..."
+
+#: src/config/Dashboard.ts:6
+msgid "Filters"
+msgstr "フィルター"
+
+#: src/config/SalesActivityFeed.ts:20
+msgid "Fleece Hoodies (L) stock below 15 units in fulfillment center."
+msgstr "フルフィルメントセンターのフリースパーカー（L）の在庫が15個未満です。"
+
+#: src/config/DateRangePicker.ts:18
+msgid "Fr"
+msgstr "金"
+
+#: src/config/SalesActivityFeed.ts:13
+msgid "Fulfillment Batch Dispatched"
+msgstr "フルフィルメントバッチ発送済み"
+
+#: src/config/LoginPage.ts:11
+msgid "Fulfillment uptime"
+msgstr "出荷稼働率"
+
+#: src/config/UpgradeModal.ts:36
+msgid "Full drag-and-drop Report Builder"
+msgstr "フル機能のドラッグ＆ドロップ式レポートビルダー"
+
+#: src/config/UpgradeModal.ts:10
+msgid "Full Enterprise Access"
+msgstr "フルエンタープライズアクセス"
+
+#: src/config/SettingsDialog.ts:15
+#: src/config/UpgradeModal.ts:17
+msgid "Gemini Embed User"
+msgstr "Gemini埋め込みユーザー"
+
+#: src/config/constants.ts:166
+msgid "Gemini User"
+msgstr "Geminiユーザー"
+
+#: src/config/IntermediaryTimeline.ts:12
+msgid "Generated Looker Query"
+msgstr "生成された Looker クエリ"
+
+#: src/config/AccessDenied.ts:9
+msgid "Go Home"
+msgstr "ホームへ戻る"
+
+#: src/config/constants.ts:228
+#: src/config/constants.ts:238
+msgid "Home"
+msgstr "ホーム"
+
+#: src/config/ConversationalAnalytics.ts:5
+#: src/config/Home.ts:31
+msgid "Interact with a conversational AI analytics assistant to query metrics."
+msgstr "対話型AI分析アシスタントと対話してメトリクスを照会します。"
+
+#: src/config/SettingsDialog.ts:16
+msgid "Interact with AI analytics agents and query metrics via natural language assistants."
+msgstr "自然言語アシスタントを介してAI分析エージェントと対話し、メトリクスを照会します。"
+
+#: src/config/UpgradeModal.ts:26
+msgid "Interactive Looker dashboards"
+msgstr "インタラクティブなLookerダッシュボード"
+
+#: src/config/Home.ts:9
+msgid "Inventory Events"
+msgstr "在庫イベント"
+
+#: src/config/SalesActivityFeed.ts:19
+msgid "Inventory Velocity Alert"
+msgstr "在庫回転速度アラート"
+
+#: src/config/SourceHighlighter.ts:6
+msgid "JS Embed Events"
+msgstr ""
+
+#: src/config/SalesActivityFeed.ts:9
+msgid "Just now"
+msgstr "たった今"
+
+#: src/config/SettingsDialog.ts:6
+#: src/config/SettingsDialog.ts:9
+msgid "Language"
+msgstr "言語"
+
+#: src/config/DateRangePicker.ts:4
+msgid "Last 180 Days"
+msgstr "過去180日間"
+
+#: src/config/DateRangePicker.ts:8
+msgid "Last 30 Days"
+msgstr "過去30日間"
+
+#: src/config/DateRangePicker.ts:7
+msgid "Last 7 Days"
+msgstr "過去7日間"
+
+#: src/config/DateRangePicker.ts:10
+msgid "Last Month"
+msgstr "先月"
+
+#: src/config/Home.ts:39
+msgid "Learn how to embed dashboards, build custom visualization extensions, and manage user attribute variables."
+msgstr "ダッシュボードの埋め込み、カスタム可視化拡張機能の構築、ユーザー属性変数の管理方法について学びます。"
+
+#: src/config/Sidebar.ts:9
+msgid "Light theme"
+msgstr "ライトテーマ"
+
+#: src/config/Home.ts:15
+msgid "LIVE"
+msgstr "ライブ"
+
+#: src/config/Home.ts:18
+msgid "Live Financial Summary"
+msgstr "ライブ財務サマリー"
+
+#: src/config/SalesActivityFeed.ts:4
+msgid "Live Operational Ticker"
+msgstr "ライブ運用ティッカー"
+
+#: src/config/Home.ts:12
+msgid "Live Revenue Hub"
+msgstr "ライブ収益ハブ"
+
+#: src/config/Home.ts:14
+msgid "Live Revenue Pulse"
+msgstr "ライブ収益パルス"
+
+#: src/config/LoginPage.ts:5
+msgid "Live System Active"
+msgstr "ライブシステム稼働中"
+
+#: src/config/GlobalLookerContainer.ts:4
+msgid "Loading Looker Content..."
+msgstr "Lookerコンテンツを読み込み中..."
+
+#: src/config/Sidebar.ts:11
+msgid "Log Out"
+msgstr "ログアウト"
+
+#: src/config/SourceHighlighter.ts:5
+msgid "Looker API"
+msgstr "Looker API"
+
+#: src/config/SourceHighlighter.ts:7
+msgid "Looker API / BQML"
+msgstr ""
+
+#: src/config/AgentsChatArea.ts:4
+msgid "Looker Conversational Analytics API"
+msgstr "Looker 会話型アナリティクス API"
+
+#: src/config/LoginPage.ts:4
+msgid "Looker eCommerce"
+msgstr "Looker eCommerce"
+
+#: src/config/Sidebar.ts:6
+msgid "Looker Embed"
+msgstr "Looker 埋め込み"
+
+#: src/config/SourceHighlighter.ts:4
+msgid "Looker iFrame"
+msgstr "Looker iFrame"
+
+#: src/config/Home.ts:10
+msgid "Looker Semantic AI"
+msgstr "Looker セマンティック AI"
+
+#: src/config/IntermediaryTimeline.ts:8
+msgid "LookML Schema Reference"
+msgstr "LookML スキーマリファレンス"
+
+#: src/config/ReportViewer.ts:11
+msgid "Looks"
+msgstr "Looks"
+
+#: src/config/Agents.ts:5
+#: src/config/Home.ts:33
+msgid "Manage and interact with Looker AI agents."
+msgstr "Looker AIエージェントを管理・操作します。"
+
+#: src/config/UpgradeModal.ts:43
+msgid "Maybe Later"
+msgstr "後で検討する"
+
+#: src/config/ReportBuilder.ts:13
+msgid "Measures & Metrics"
+msgstr "メジャーとメトリクス"
+
+#: src/config/DateRangePicker.ts:14
+msgid "Mo"
+msgstr "月"
+
+#: src/config/Home.ts:5
+msgid "Monitor live cross-channel revenue performance, evaluate ML-driven business recommendations, and explore operational fulfillment streams."
+msgstr "ライブでのクロスチャネル収益パフォーマンスを監視し、ML主導のビジネス推奨事項を評価し、運用フルフィルメントストリームを探索します。"
+
+#: src/config/UpgradeModal.ts:9
+msgid "Most Popular"
+msgstr "一番人気"
+
+#: src/config/UpgradeModal.ts:31
+msgid "Natural language Conversational Analytics"
+msgstr "自然言語の対話型アナリティクス"
+
+#: src/config/AgentsSidebar.ts:6
+msgid "New chat"
+msgstr "新しいチャット"
+
+#: src/config/SalesActivityFeed.ts:7
+msgid "New Order #12849 Finalized"
+msgstr "新規注文 #12849 確定"
+
+#: src/config/ReportViewer.ts:10
+msgid "New Report"
+msgstr "新しいレポート"
+
+#: src/config/ReportViewer.ts:10
+#~ msgid "New Report ("
+#~ msgstr "新規レポート ("
+
+#: src/config/InsightsPanel.ts:14
+msgid "No briefing details provided."
+msgstr "ブリーフィングの詳細はありません。"
+
+#: src/config/ReportViewer.ts:7
+msgid "No dashboards"
+msgstr "ダッシュボードなし"
+
+#: src/config/ReportViewer.ts:12
+msgid "No looks"
+msgstr "Looksなし"
+
+#: src/config/ReportBuilder.ts:10
+msgid "No matching fields found for \""
+msgstr "該当するフィールドが見つかりません: \""
+
+#: src/config/AgentsSidebar.ts:11
+msgid "No recent chats"
+msgstr "最近のチャットはありません"
+
+#: src/config/ReportBuilder.ts:14
+msgid "No rows returned for the selected query combination."
+msgstr "選択されたクエリの組み合わせに一致する行はありません。"
+
+#: src/config/InsightsPanel.ts:9
+msgid "No strategic AI briefings pre-generated for "
+msgstr "事前生成されたAI戦略ブリーフィングがありません: "
+
+#: src/config/SalesActivityFeed.ts:24
+msgid "Ops & Logistics"
+msgstr "運用・物流"
+
+#: src/config/LoginPage.ts:21
+msgid "Or continue with email"
+msgstr "またはメールアドレスで続行"
+
+#: src/config/SalesActivityFeed.ts:26
+msgid "Order #12849"
+msgstr "注文 #12849"
+
+#: src/config/SettingsDialog.ts:19
+msgid "Payload"
+msgstr "ペイロード"
+
+#: src/config/Navbar.ts:5
+msgid "Portal"
+msgstr "ポータル"
+
+#: src/config/LoginPage.ts:14
+msgid "Privacy"
+msgstr "プライバシー"
+
+#: src/config/constants.ts:232
+#: src/config/constants.ts:247
+msgid "Query Explorer"
+msgstr "クエリ Explorer"
+
+#: src/config/LoginPage.ts:13
+msgid "Query processing"
+msgstr "クエリ処理中"
+
+#: src/config/Home.ts:40
+msgid "Read Docs"
+msgstr "ドキュメントを読む"
+
+#: src/config/LoginPage.ts:12
+msgid "Real-time"
+msgstr "リアルタイム"
+
+#: src/config/SalesActivityFeed.ts:5
+msgid "Real-time simulated multi-channel commerce occurrences"
+msgstr "リアルタイムシミュレートされたマルチチャネルコマースイベント"
+
+#: src/config/AgentsSidebar.ts:10
+msgid "Recents"
+msgstr "最近"
+
+#: src/config/InsightsPanel.ts:11
+msgid "Recommendations generated asynchronously and persisted via BigQuery AI.GENERATE"
+msgstr "推奨事項は非同期で生成され、BigQuery AI.GENERATE経由で保存されました"
+
+#: src/config/ReportViewer.ts:13
+msgid "Refresh folders"
+msgstr "フォルダーを更新"
+
+#: src/config/ReportViewer.ts:17
+msgid "Reload"
+msgstr "再読み込み"
+
+#: src/config/ReportViewer.ts:16
+msgid "Reload Current Report"
+msgstr "現在のレポートを再読み込み"
+
+#: src/config/ReportViewer.ts:15
+msgid "report"
+msgstr "レポート"
+
+#: src/config/constants.ts:233
+#: src/config/constants.ts:250
+#: src/config/Home.ts:36
+#: src/config/ReportBuilder.ts:4
+msgid "Report Builder"
+msgstr "レポートビルダー"
+
+#: src/config/constants.ts:234
+#: src/config/constants.ts:245
+msgid "Report Viewer"
+msgstr "レポートビューアー"
+
+#: src/config/ReportViewer.ts:4
+msgid "Reports"
+msgstr "レポート"
+
+#: src/config/ReportBuilder.ts:9
+msgid "Reset columns to default"
+msgstr "列をデフォルトにリセット"
+
+#: src/config/SalesActivityFeed.ts:23
+msgid "Revenue"
+msgstr "収益"
+
+#: src/config/IntermediaryTimeline.ts:15
+msgid "rows"
+msgstr "行"
+
+#: src/config/DateRangePicker.ts:19
+msgid "Sa"
+msgstr "土"
+
+#: src/config/Home.ts:25
+msgid "Sales Activity Stream"
+msgstr "セールスアクティビティストリーム"
+
+#: src/config/AgentsSidebar.ts:9
+msgid "Search chats..."
+msgstr "チャットを検索..."
+
+#: src/config/ReportBuilder.ts:6
+msgid "Search fields & groups to build report..."
+msgstr "レポートを作成するためにフィールドとグループを検索..."
+
+#: src/config/ErrorBoundary.ts:4
+msgid "Section Display Error"
+msgstr "セクション表示エラー"
+
+#: src/config/LoginPage.ts:26
+msgid "Secure 10-minute encrypted local storage session"
+msgstr "セキュアな10分間暗号化ローカルストレージセッション"
+
+#: src/config/LoginPage.ts:16
+msgid "Security"
+msgstr "セキュリティ"
+
+#: src/config/ReportViewer.ts:14
+msgid "Select a look or a dashboard"
+msgstr "Lookまたはダッシュボードを選択してください"
+
+#: src/config/DateRangePicker.ts:12
+msgid "Select Date Range"
+msgstr "期間を選択"
+
+#: src/config/AgentsChatArea.ts:8
+msgid "Send message"
+msgstr "メッセージを送信"
+
+#: src/config/SettingsDialog.ts:4
+#: src/config/Sidebar.ts:10
+msgid "Settings"
+msgstr "設定"
+
+#: src/config/IntermediaryTimeline.ts:14
+msgid "Showing first 100 of"
+msgstr "最初の100件を表示 / 全"
+
+#: src/config/LoginPage.ts:18
+msgid "Sign in to your e-commerce analytics workspace"
+msgstr "eCommerce分析ワークスペースにサインイン"
+
+#: src/config/LoginPage.ts:19
+msgid "Sign in with Google"
+msgstr "Googleでサインイン"
+
+#: src/config/LoginPage.ts:20
+msgid "Sign in with Microsoft"
+msgstr "Microsoftでサインイン"
+
+#: src/config/SettingsDialog.ts:13
+#: src/config/UpgradeModal.ts:13
+msgid "Simple Embed User"
+msgstr "シンプル埋め込みユーザー"
+
+#: src/config/constants.ts:165
+msgid "Simple User"
+msgstr "シンプルユーザー"
+
+#: src/config/SalesActivityFeed.ts:6
+msgid "Simulating Ticker"
+msgstr "ティッカーをシミュレーション中"
+
+#: src/config/SettingsDialog.ts:11
+msgid "Source"
+msgstr "ソース"
+
+#: src/config/UpgradeModal.ts:27
+msgid "Standard filtering & cross-filtering"
+msgstr "標準フィルタリング＆クロスフィルタリング"
+
+#: src/config/IntermediaryTimeline.ts:5
+msgid "step"
+msgstr "ステップ"
+
+#: src/config/IntermediaryTimeline.ts:6
+msgid "steps"
+msgstr "ステップ"
+
+#: src/config/InsightsPanel.ts:13
+msgid "Strategic Insight"
+msgstr "戦略的インサイト"
+
+#: src/config/DateRangePicker.ts:13
+msgid "Su"
+msgstr "日"
+
+#: src/config/UpgradeModal.ts:19
+msgid "Supercharge workflow with natural language querying and autonomous data agents."
+msgstr "自然言語によるクエリと自律型データエージェントで、ワークフローを劇的に強化します。"
+
+#: src/config/UpgradeModal.ts:41
+msgid "Switch to Plan"
+msgstr "このプランに変更"
+
+#: src/config/LoginPage.ts:15
+msgid "Terms"
+msgstr "利用規約"
+
+#: src/config/DateRangePicker.ts:17
+msgid "Th"
+msgstr "木"
+
+#: src/config/AccessDenied.ts:5
+msgid "The "
+msgstr "The "
+
+#: src/config/Home.ts:6
+msgid "The Look Analytics Platform"
+msgstr "The Look 分析プラットフォーム"
+
+#: src/config/DateRangePicker.ts:9
+msgid "This Month"
+msgstr "今月"
+
+#: src/config/UpgradeModal.ts:7
+msgid "This route requires a higher access tier. Select a plan below to instantly upgrade and continue."
+msgstr "このルートにはより上位のアクセス権限が必要です。以下のプランを選択して即座にアップグレードし、続行してください。"
+
+#: src/config/SalesActivityFeed.ts:27
+msgid "Tier 1 Profile"
+msgstr "Tier 1 プロフィール"
+
+#: src/config/DateRangePicker.ts:5
+msgid "Today"
+msgstr "今日"
+
+#: src/config/Home.ts:21
+msgid "Total Orders"
+msgstr "総注文数"
+
+#: src/config/Home.ts:19
+msgid "Total Revenue"
+msgstr "総収益"
+
+#: src/config/LoginPage.ts:9
+msgid "Total trackable GGM"
+msgstr "追跡可能な総GGM"
+
+#: src/config/ErrorBoundary.ts:6
+msgid "Try Again"
+msgstr "再試行"
+
+#: src/config/DateRangePicker.ts:15
+msgid "Tu"
+msgstr "火"
+
+#: src/config/UpgradeModal.ts:6
+msgid "Unlock powerful analytics, AI assistants, and custom report creation. Switch plans instantly at any time."
+msgstr "強力なアナリティクス、AIアシスタント、カスタムレポート作成をアンロック。いつでもすぐにプランを変更できます。"
+
+#: src/config/UpgradeModal.ts:37
+msgid "Unrestricted LookML Query Explorer"
+msgstr "制限なしの LookML クエリエクスプローラー"
+
+#: src/config/AgentsSidebar.ts:4
+msgid "Untitled Chat"
+msgstr "無題のチャット"
+
+#: src/config/AccessDenied.ts:10
+msgid "Upgrade Access"
+msgstr "アクセスをアップグレード"
+
+#: src/config/UpgradeModal.ts:5
+msgid "Upgrade Your Workspace"
+msgstr "ワークスペースのアップグレード"
+
+#: src/config/ReportViewer.ts:8
+msgid "User Created"
+msgstr "ユーザー作成済み"
+
+#: src/config/UserDetailsDialog.ts:4
+msgid "User Details"
+msgstr "ユーザー詳細"
+
+#: src/config/UserObjectFlyout.ts:4
+msgid "User Object Preview"
+msgstr "ユーザーオブジェクトプレビュー"
+
+#: src/config/SettingsDialog.ts:5
+#: src/config/SettingsDialog.ts:8
+msgid "User Type"
+msgstr "ユーザータイプ"
+
+#: src/config/SettingsDialog.ts:14
+msgid "View and query metrics with standard dashboard interaction levels."
+msgstr "標準的なダッシュボード操作レベルでメトリクスを表示・照会します。"
+
+#: src/config/Home.ts:29
+msgid "View embedded analytical dashboard reports and real-time business insights."
+msgstr "埋め込み分析ダッシュボードレポートとリアルタイムのビジネスインサイトを表示します。"
+
+#: src/config/UpgradeModal.ts:14
+msgid "Viewer"
+msgstr "閲覧者"
+
+#: src/config/IntermediaryTimeline.ts:11
+msgid "Views"
+msgstr "ビュー"
+
+#: src/config/SalesActivityFeed.ts:10
+msgid "VIP Customer Checkout"
+msgstr "VIP顧客チェックアウト"
+
+#: src/config/Dashboard.ts:5
+msgid "Visual analytical dashboards and reports."
+msgstr "視覚的な分析ダッシュボードとレポート。"
+
+#: src/config/SalesActivityFeed.ts:14
+msgid "Warehouse West fulfilled 142 expedited priority shipments."
+msgstr "西倉庫が142件の優先急便を出荷しました。"
+
+#: src/config/GlobalLookerContainer.ts:5
+msgid "Warmbooting Looker Session..."
+msgstr "Lookerセッションをウォームブート中..."
+
+#: src/config/InsightsPanel.ts:5
+msgid "Warmbooting Session..."
+msgstr "セッションをウォームブート中..."
+
+#: src/config/KpiCard.ts:5
+msgid "Warmbooting..."
+msgstr "ウォームブート中..."
+
+#: src/config/DateRangePicker.ts:16
+msgid "We"
+msgstr "水"
+
+#: src/config/LoginPage.ts:17
+msgid "Welcome Back"
+msgstr "お帰りなさい"
+
+#: src/config/LoginPage.ts:22
+msgid "Work Email"
+msgstr "業務メールアドレス"
+
+#: src/config/IntermediaryTimeline.ts:7
+msgid "Working"
+msgstr "処理中"
+
+#: src/config/Navbar.ts:4
+msgid "Workspace"
+msgstr "ワークスペース"
+
+#: src/config/UpgradeModal.ts:4
+msgid "Workspace Tier Upgrade"
+msgstr "ワークスペースプランのアップグレード"
+
+#: src/config/DateRangePicker.ts:6
+msgid "Yesterday"
+msgstr "昨日"
