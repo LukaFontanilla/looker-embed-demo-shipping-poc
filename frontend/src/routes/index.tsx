@@ -44,8 +44,8 @@ function Home() {
         <HeroBanner
           title={i18n._(HomeText.HERO_TITLE)}
           subtitle={i18n._(HomeText.HERO_SUBTITLE)}
-          badgeText={`${brand} ${i18n._(HomeText.HERO_BADGE_SUFFIX)}`}
-          badgeIcon={Sparkles}
+          // badgeText={`${i18n._(HomeText.HERO_BADGE_SUFFIX)}`}
+          // badgeIcon={Sparkles}
         />
       </header>
 

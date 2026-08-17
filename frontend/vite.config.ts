@@ -39,7 +39,9 @@ const config = defineConfig({
     },
   },
   server: {
+    host: true,
     port: 8008,
+    strictPort: true,
     open: true,
     proxy: {
       "/api": {

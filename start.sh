@@ -4,13 +4,16 @@
 cleanup() {
     echo ""
     echo "Stopping backend and frontend servers..."
-    # Kill the processes if their PIDs are set and running
+    # Kill the processes and their children if their PIDs are set and running
     if [ -n "$BACKEND_PID" ]; then
-        kill "$BACKEND_PID" 2>/dev/null
+        pkill -P "$BACKEND_PID" 2>/dev/null || true
+        kill "$BACKEND_PID" 2>/dev/null || true
     fi
     if [ -n "$FRONTEND_PID" ]; then
-        kill "$FRONTEND_PID" 2>/dev/null
+        pkill -P "$FRONTEND_PID" 2>/dev/null || true
+        kill "$FRONTEND_PID" 2>/dev/null || true
     fi
+    fuser -k -9 8008/tcp 8009/tcp 2>/dev/null || true
     exit 0
 }
 
@@ -48,7 +51,7 @@ fi
 # Start Backend Server
 echo "Starting backend server (FastAPI) on port 8009..."
 cd backend
-uv run uvicorn main:app --host 0.0.0.0 --port 8009 &
+uv run --frozen uvicorn main:app --host 0.0.0.0 --port 8009 &
 BACKEND_PID=$!
 cd ..
 
